@@ -1,0 +1,52 @@
+/* banner */
+/* Carousel */
+.carousel-indicators li {
+    cursor: pointer;
+}
+
+.carousel-indicators {
+    position: absolute;
+    left: 50%;
+}
+
+.bg1 {
+    background: url(./images/bg1.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
+
+.bg2 {
+    background: url(./images/bg2.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
+
+.bnr-text-wthree {
+    padding: 17vw 0 17vw 30vw;
+}
+
+.bnr-text-wthree p {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: 'Gentium Basic', serif;
+    font-style: italic;
+}
+
+body{
+    color: #fff;
+}
+/* //banner */
+/* //Carousel */
+
+.register-form,
+.banner-agile {
+    background: #131313;
+}
+/* //banner login */

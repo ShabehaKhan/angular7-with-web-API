@@ -1,0 +1,23 @@
+<form [formGroup]="service.formModel" autocomplete="off" (submit)="onSubmit()">
+  
+  <div class="form-group ">
+    <label>Designation</label>
+    <input class="form-control" formControlName="Designation">
+    
+  </div>
+  <div class="form-group">
+    <label>Key Skill</label>
+    <input class="form-control" formControlName="KeySkill">
+    
+  </div>
+  <div class="form-group">
+    <label>Category</label>
+    <input class="form-control" formControlName="Category">
+  </div>
+  
+  <div class="form-row">
+    
+      <button type="submit" class="btn btn-lg btn-block" [disabled]="!service.formModel.valid">save</button>
+    
+  </div>
+</form>

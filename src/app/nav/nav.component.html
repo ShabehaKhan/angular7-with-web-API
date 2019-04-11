@@ -1,0 +1,8 @@
+<ul>
+  <li><a class="active" routerLink="/dashboard">Dashboard</a></li>
+  <li><a routerLink="/addjob">Add job</a></li>
+  <li><a routerLink="/cv-list">CV List</a></li>
+  <li><a routerLink="/chat">Chat</a></li>
+  
+  <li style="float:right"><button class="btn btn-danger bt-mg" *ngIf="userDetails" (click)="onLogout()">({{userDetails.userName}})Logout</button></li>
+</ul>
